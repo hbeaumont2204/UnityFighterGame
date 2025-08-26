@@ -1,0 +1,350 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.43f1 (97272b72f107) revision 9905963'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16123 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55032
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27296]  Target information:
+
+Player connection [27296]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 27891590 [EditorId] 27891590 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27296]  * "[IP] 10.252.6.82 [Port] 0 [Flags] 2 [Guid] 27891590 [EditorId] 27891590 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27296]  * "[IP] 192.168.1.147 [Port] 0 [Flags] 2 [Guid] 27891590 [EditorId] 27891590 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27296] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27296] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.43f1 (97272b72f107)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7700S (ID=0x7480)
+    Vendor:   ATI
+    VRAM:     8127 MB
+    Driver:   32.0.11036.4002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.012010 seconds.
+- Loaded All Assemblies, in  0.717 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.512 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (215ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.307 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ArenaFighter
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.069 seconds
+Domain Reload Profiling: 2360ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (877ms)
+		LoadAssemblies (651ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (396ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (258ms)
+			BuildScriptInfoCaches (88ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1069ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (851ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6831 unused Assets / (7.4 MB). Loaded Objects now: 7541.
+Memory consumption went from 188.6 MB to 181.2 MB.
+Total: 10.167400 ms (FindLiveObjects: 0.879500 ms CreateObjectMapping: 0.515300 ms MarkObjects: 5.469900 ms  DeleteObjects: 3.301700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 459574.145050 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures
+  artifactKey: Guid(f903efc35ad8ad149afdfe74c37543ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures using Guid(f903efc35ad8ad149afdfe74c37543ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b105a03ad0c07466105535cb4bc8f8e8') in 0.0108318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.894840 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables
+  artifactKey: Guid(f12e155b03a085a45a2c1e0395e4945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables using Guid(f12e155b03a085a45a2c1e0395e4945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97f78b8873e750c7f5222ea72a5b9077') in 0.0007252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Base_color.png
+  artifactKey: Guid(973f3017245c3f5478b70f72d5ec67ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Base_color.png using Guid(973f3017245c3f5478b70f72d5ec67ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8d4db35f9993c51397d566395c94b8') in 0.1291309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Roughness.png
+  artifactKey: Guid(98ef32987ff927449bfdc4953c2fa4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Roughness.png using Guid(98ef32987ff927449bfdc4953c2fa4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbd2d094e6334e6b685521a1c8dc47f') in 0.0174161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.714534 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Materials
+  artifactKey: Guid(75718ea251731904aa7e1b590368cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Materials using Guid(75718ea251731904aa7e1b590368cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '075418c0b5010194c15e9d8125ca8f04') in 0.0011223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362722 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models
+  artifactKey: Guid(55654f61a7c53fa4699460ddf871c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models using Guid(55654f61a7c53fa4699460ddf871c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5750a5fdbf901776ba8f34886379b80f') in 0.0010292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.397896 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards
+  artifactKey: Guid(02fe1ac3c14c58f4290c9162ec0efb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards using Guid(02fe1ac3c14c58f4290c9162ec0efb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89d8aeb549de301f9c41be1f4722b0bc') in 0.0013291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club2.fbx
+  artifactKey: Guid(1025418981b2c444fa92de25c9db64e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club2.fbx using Guid(1025418981b2c444fa92de25c9db64e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bc90282a36ce17eb218636bd0d17264') in 0.8159293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond9.fbx
+  artifactKey: Guid(77cd4eac24ed3674581180834a1d13ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond9.fbx using Guid(77cd4eac24ed3674581180834a1d13ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e8bfc5a20bf2fb939946a1fe6cf277e') in 0.026129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond2.fbx
+  artifactKey: Guid(90115fc89ff10134c9b885b793902594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond2.fbx using Guid(90115fc89ff10134c9b885b793902594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b55ed4f02ee4db6a02d04e2ad0bcc19a') in 0.0293471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondQueen.fbx
+  artifactKey: Guid(837ed1fda1828f3478714f52972902d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondQueen.fbx using Guid(837ed1fda1828f3478714f52972902d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a4e5a40156a72c40b635d72e228637') in 0.0255105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_ClubQueen.fbx
+  artifactKey: Guid(91ccb79101f3fc045b0c7d7a9ccf7054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_ClubQueen.fbx using Guid(91ccb79101f3fc045b0c7d7a9ccf7054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e692fb2eb07c0624c48f526eb4817a8e') in 0.0255998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club6.fbx
+  artifactKey: Guid(ee1261ebae0a01643954d69d57437f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club6.fbx using Guid(ee1261ebae0a01643954d69d57437f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '631934532a04ab8b1b32aab1cb7d6109') in 0.0274209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond7.fbx
+  artifactKey: Guid(ab2ff17f6e922f140b0a694512296dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond7.fbx using Guid(ab2ff17f6e922f140b0a694512296dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a9d60f6fcc4067d1a2f9eb127ec02f') in 0.025769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond3.fbx
+  artifactKey: Guid(70f22850fd044044eb3b40cb1c9e5bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Diamond3.fbx using Guid(70f22850fd044044eb3b40cb1c9e5bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd95e0799e43d967ed3119a671c02c5c') in 0.0252741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.306122 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade3.fbx
+  artifactKey: Guid(4f83837a08959da4897b514880b8a3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade3.fbx using Guid(4f83837a08959da4897b514880b8a3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89eb9c4aaf5726f133492d44eabaee1e') in 0.0309639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_SpadeAce.fbx
+  artifactKey: Guid(d00ffa82626fd1a42b3231af8ff8a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_SpadeAce.fbx using Guid(d00ffa82626fd1a42b3231af8ff8a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77fd340b9753514e7ddacb05c912d7bb') in 0.0277797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_SpadeKing.fbx
+  artifactKey: Guid(851325f54e7e8d74e92fe4a438b4c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_SpadeKing.fbx using Guid(851325f54e7e8d74e92fe4a438b4c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b818950a3e32d69acfde5620b855cbb7') in 0.0278657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade9.fbx
+  artifactKey: Guid(5ff846045e3d7c240929b30399a5636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade9.fbx using Guid(5ff846045e3d7c240929b30399a5636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1c2048e697a8dcd2a3efa0abe97327d') in 0.0519276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

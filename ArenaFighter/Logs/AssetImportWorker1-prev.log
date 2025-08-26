@@ -1,0 +1,510 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.43f1 (97272b72f107) revision 9905963'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16123 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55032
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42760]  Target information:
+
+Player connection [42760]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3095061783 [EditorId] 3095061783 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42760]  * "[IP] 10.252.6.82 [Port] 0 [Flags] 2 [Guid] 3095061783 [EditorId] 3095061783 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42760]  * "[IP] 192.168.1.147 [Port] 0 [Flags] 2 [Guid] 3095061783 [EditorId] 3095061783 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42760] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [42760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.43f1 (97272b72f107)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7700S (ID=0x7480)
+    Vendor:   ATI
+    VRAM:     8127 MB
+    Driver:   32.0.11036.4002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.011356 seconds.
+- Loaded All Assemblies, in  0.735 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (240ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.570 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ArenaFighter
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.199 seconds
+Domain Reload Profiling: 2748ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1065ms)
+		LoadAssemblies (812ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (442ms)
+			TypeCache.Refresh (315ms)
+				TypeCache.ScanAssembly (293ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1200ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (961ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6831 unused Assets / (9.0 MB). Loaded Objects now: 7541.
+Memory consumption went from 186.6 MB to 177.6 MB.
+Total: 17.887500 ms (FindLiveObjects: 0.757100 ms CreateObjectMapping: 1.024700 ms MarkObjects: 9.864200 ms  DeleteObjects: 6.239900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 459551.442785 seconds.
+  path: Assets/SubstanceAssets
+  artifactKey: Guid(a9dfbd97e0d812344974d4b17416c906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets using Guid(a9dfbd97e0d812344974d4b17416c906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d099f8546c07670cd10941dedd44b1') in 0.0078341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack
+  artifactKey: Guid(9fb1d3aae5699f94482cb66721b66723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack using Guid(9fb1d3aae5699f94482cb66721b66723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c28069c833c6c3301a33466e6d6ddbe6') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.713732 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Prefabs/Assembled Prefabs/CardFan_Clubs.prefab
+  artifactKey: Guid(316490f81d4871c4c957fd71fa0c7fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Prefabs/Assembled Prefabs/CardFan_Clubs.prefab using Guid(316490f81d4871c4c957fd71fa0c7fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fe0189a3f4593d5a78f0adaa5657589') in 1.1665272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Prefabs/Assembled Prefabs/CardFan_Spades.prefab
+  artifactKey: Guid(93f872e7fbee92648bce14832c947269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Prefabs/Assembled Prefabs/CardFan_Spades.prefab using Guid(93f872e7fbee92648bce14832c947269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5780e7b35197d723624f33122aea57c') in 0.0757147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 205
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Prefabs/Assembled Prefabs/CardFan_Diamonds.prefab
+  artifactKey: Guid(c3ac7d9e553a377468ff72e274425eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Prefabs/Assembled Prefabs/CardFan_Diamonds.prefab using Guid(c3ac7d9e553a377468ff72e274425eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd25e1422703a410d5bb0e54c2f5760f3') in 0.077976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 205
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.375804 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Metallic.png
+  artifactKey: Guid(ca757f0e13c515d428670647a1150b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Metallic.png using Guid(ca757f0e13c515d428670647a1150b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0a408f43bd557feb3bc72d7cf825201') in 0.0422065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Mixed_AO.png
+  artifactKey: Guid(3e2b117b9c5c2e34db6f955ebc4c79f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/CardsAndTables/CardsAndTables_Mixed_AO.png using Guid(3e2b117b9c5c2e34db6f955ebc4c79f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7e3a0f5e3309ead9affcd8a9b46d285') in 0.0246163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.835541 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club4.fbx
+  artifactKey: Guid(53819d9c168595c4d9923f2aa26279a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club4.fbx using Guid(53819d9c168595c4d9923f2aa26279a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a83bc95cf7b713bed5750ae08b7e14fb') in 0.0955416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondJack.fbx
+  artifactKey: Guid(3c2187589b513384c9d482b29856e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondJack.fbx using Guid(3c2187589b513384c9d482b29856e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a099c1072302c7aeaa39b940b7d029') in 0.0254573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_ClubKing.fbx
+  artifactKey: Guid(2ab0c8d0a9cb2954fb0b6829e76a4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_ClubKing.fbx using Guid(2ab0c8d0a9cb2954fb0b6829e76a4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c3d4786379d2b9ade396b86805ea39') in 0.024921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart2.fbx
+  artifactKey: Guid(a28e400974a032244b2cfd8635a17888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart2.fbx using Guid(a28e400974a032244b2cfd8635a17888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd181d18bd7fdb2242af84458e7e76c') in 0.0279659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_HeartJack.fbx
+  artifactKey: Guid(ca47d003f0c2e4a4198f55197f23b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_HeartJack.fbx using Guid(ca47d003f0c2e4a4198f55197f23b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0c904c9994434d21faae51acf2e9f04') in 0.0240968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondKing.fbx
+  artifactKey: Guid(069aed6649ec2d24aa411927388d32a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondKing.fbx using Guid(069aed6649ec2d24aa411927388d32a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a03b65f243705af93544c7aaa815f54f') in 0.0261859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart10.fbx
+  artifactKey: Guid(3aa49c2c8878e0148bc909d4d195ae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart10.fbx using Guid(3aa49c2c8878e0148bc909d4d195ae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b6962a5c93636ba96691738e826efa0') in 0.0259388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_HeartKing.fbx
+  artifactKey: Guid(0742dd1907a4d3741b750f1ae129680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_HeartKing.fbx using Guid(0742dd1907a4d3741b750f1ae129680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc9aacd47ce1e6a32bde5e5afbec4fb6') in 0.0250317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart7.fbx
+  artifactKey: Guid(371c6e14c51c5b9449b956ba093a5977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart7.fbx using Guid(371c6e14c51c5b9449b956ba093a5977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '432089e6beaf369fdd0a3a63dc790650') in 0.0224034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club8.fbx
+  artifactKey: Guid(056fbab5b94c22e44a399fc51c781d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club8.fbx using Guid(056fbab5b94c22e44a399fc51c781d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81288221a31ff39055e682fc56f2778d') in 0.0256338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club10.fbx
+  artifactKey: Guid(eb688111da06931409617c133516c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club10.fbx using Guid(eb688111da06931409617c133516c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00cbe1c57e7d62307186a1d2fb729e94') in 0.0254299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade2.fbx
+  artifactKey: Guid(ae59c5ace333d064f80e403afa3b3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade2.fbx using Guid(ae59c5ace333d064f80e403afa3b3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd046d707dc1c616d54cbc1dfb44aafa6') in 0.0261184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club5.fbx
+  artifactKey: Guid(546641f10ef636140b1c8fa07f431a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club5.fbx using Guid(546641f10ef636140b1c8fa07f431a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa88e446ea94135dcc1e9069a4fafb43') in 0.0240896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart5.fbx
+  artifactKey: Guid(fef3686b90fb60d4eb092d9266b98e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart5.fbx using Guid(fef3686b90fb60d4eb092d9266b98e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '368eac69d6bbe8c949e1e48502d85132') in 0.024511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club9.fbx
+  artifactKey: Guid(7aa8b85dddf6d2048b4482e89a85a8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Club9.fbx using Guid(7aa8b85dddf6d2048b4482e89a85a8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05b47a9132f709b5ae2be59722449315') in 0.0254776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart3.fbx
+  artifactKey: Guid(86b715505528280439e577820b4063b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Heart3.fbx using Guid(86b715505528280439e577820b4063b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '651a91695129354a3a86e3c52b74575b') in 0.0251801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_HeartAce.fbx
+  artifactKey: Guid(ff39c183e777b04458cb4c1610b99a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_HeartAce.fbx using Guid(ff39c183e777b04458cb4c1610b99a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56f6f25165e81c4dcc2c86e0c273d065') in 0.0250132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.231278 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade5.fbx
+  artifactKey: Guid(61c3b8f6a784f8040840f12c05e1ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade5.fbx using Guid(61c3b8f6a784f8040840f12c05e1ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '909d954f1ae7d273a62507045fa95db2') in 0.0306843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade7.fbx
+  artifactKey: Guid(b4938b6705d80614fa0e5fa8c9549f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade7.fbx using Guid(b4938b6705d80614fa0e5fa8c9549f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c984263e194fd6b20bec113e208c2ad0') in 0.0268038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade8.fbx
+  artifactKey: Guid(bb993fcbe56e1f046964e26cd11d968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_Spade8.fbx using Guid(bb993fcbe56e1f046964e26cd11d968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfcfb1d040b76e0915a49c3a553d5848') in 0.0286955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Models/Cards/CardTable.fbx
+  artifactKey: Guid(e121f073111ef424ca6143f029c194e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Models/Cards/CardTable.fbx using Guid(e121f073111ef424ca6143f029c194e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3bf11b8cfe760aacb1476551e8c44a6') in 0.056368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.076482 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Materials/CardsAndTables.mat
+  artifactKey: Guid(acee5651fa8f28a4a93d6f83dc387a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Materials/CardsAndTables.mat using Guid(acee5651fa8f28a4a93d6f83dc387a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdd7da012c90f8156e7bf50a5f4f68c') in 0.0586056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Materials/GamePieces.mat
+  artifactKey: Guid(a65e6227ec9f5c647b25d8c80cc88d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Materials/GamePieces.mat using Guid(a65e6227ec9f5c647b25d8c80cc88d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6daaf7a4d027c76fefe0c70f63c5a3c2') in 0.0565477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.755505 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces
+  artifactKey: Guid(bc78dbf633bebeb4d8920ada69fecd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces using Guid(bc78dbf633bebeb4d8920ada69fecd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41409a6556bd4816969b2b699bdf92ae') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.543422 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces/ChessPieces_Base_color.png
+  artifactKey: Guid(c7e0c22f4fc8c1f419f0b6d10f170075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces/ChessPieces_Base_color.png using Guid(c7e0c22f4fc8c1f419f0b6d10f170075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99faf61ce818f43340add626ff7d25ee') in 0.0163192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces/ChessPieces_Normal_OpenGL.png
+  artifactKey: Guid(b363b94d18d10964aa96eedd40c1ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces/ChessPieces_Normal_OpenGL.png using Guid(b363b94d18d10964aa96eedd40c1ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '980a6c2a908c28831a0180d247bffe1c') in 0.0372564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces/ChessPieces_Metallic.png
+  artifactKey: Guid(ec3a1514ef7a2c44db6040c45ba1fb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/ChessPieces/ChessPieces_Metallic.png using Guid(ec3a1514ef7a2c44db6040c45ba1fb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b1aaa97bb63a2cb0c49b02ae1d15c7f') in 0.0158483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.662600 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces
+  artifactKey: Guid(d88da0684cce45641a22f5b4b009ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces using Guid(d88da0684cce45641a22f5b4b009ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c8942b576aab2b3709355674ce4d26a') in 0.0011484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Base_color.png
+  artifactKey: Guid(dc5957f23a73e0945b24147f3c4d999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Base_color.png using Guid(dc5957f23a73e0945b24147f3c4d999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '571810c3e32dfd619f215d7db385b6d6') in 0.017412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Metallic.png
+  artifactKey: Guid(03159f8be35accb4883befca9d0641e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Metallic.png using Guid(03159f8be35accb4883befca9d0641e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66744f4f7f659ab7dbc2f0a5903cceee') in 0.0157911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Roughness.png
+  artifactKey: Guid(e672ab8d2026d8840a87cf22585ddc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Roughness.png using Guid(e672ab8d2026d8840a87cf22585ddc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c4adda3784683e707ac1d6b46a1cf0f') in 0.0200385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.306623 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CasaATextura.mat
+  artifactKey: Guid(adf07682f1f68194ba0e44110d8c83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CasaATextura.mat using Guid(adf07682f1f68194ba0e44110d8c83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6437f1b7382d86dba924034e04dc33fc') in 0.0212595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
