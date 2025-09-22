@@ -19,9 +19,6 @@ public class Player : MonoBehaviour
     // Money Display
     public TextMeshProUGUI goldDisplay;
     public TextMeshProUGUI silverDisplay;
-    // Inventory Display
-    public Inventory inventory;
-    public InventoryUI inventoryUI;
     private const int max = 9979; // max = 99*80 + 79
 
     public int health = 100;
@@ -37,7 +34,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         updateCurrency();
-        inventoryUI.UpdateInventoryUI(inventory.items);
     }
 
     void Update()
@@ -81,9 +77,4 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void AddItemToInventory(Item item)
-    {
-        inventory.AddItem(item);
-        inventoryUI.UpdateInventoryUI(inventory.items);
-    }
 }
