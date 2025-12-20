@@ -1,37 +1,16 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.UI;
 
-public class InventorySlot : MonoBehaviour, IPointerClickHandler
+[System.Serializable]
+public class InventorySlot
 {
-    public InventoryItem myItem { get; set; }
-    public SlotTag myTag;
+    public Item item;
 
-    public void OnPointerClick(PointerEventData eventData)
+    public int quantity;
+
+    public InventorySlot(Item Item, int Quantity)
     {
-        if(eventData.button == PointerEventData.InputButton.Left)
-        {
-            if (InventoryItem.carriedItem == null) return;
-            if (myTag != SlotTag.None && InventoryItem.carriedItem.myItem.itemTag != myTag) return;
-            SetItem(InventoryItem.carriedItem);
-        }
-    }
-
-    public void SetItem(InventoryItem item)
-    {
-        InventoryItem.carriedItem = null;
-
-        item.activeSlot.myItem = null;
-
-        myItem = item;
-        myItem.activeSlot = this;
-        myItem.transform.SetParent(transform);
-        myItem.canvasGroup.blocksRaycasts = true;
-
-        if(myTag != SlotTag.None)
-        {
-            InventoryItem.Singleton.EquipEquipment(myTag, myItem);
-        }
+        this.item = Item;
+        this.quantity = Quantity;
     }
 }

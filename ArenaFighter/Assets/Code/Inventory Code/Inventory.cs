@@ -1,98 +1,40 @@
-using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
 using System.Collections.Generic;
-
+using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public static Inventory Singleton;
-    public static InventoryItem carriedItem;
+    public List<InventorySlot> inventoryItems = new List<InventorySlot>();
 
-    [SerializeField] InventorySlot[] inventorySlots;
 
-    [SerializeField] Transform draggablesTransform;
-    [SerializeField] InventoryItem itemPrefab;
-
-    [Header("Item List")]
-    [SerializeField] Item[] items;
-
-    [Header("Debug")]
-    [SerializeField] Button giveItemButton;
-
-    private void Awake()
+    public void addItem(Item item, int amount = 1)
     {
-        Singleton = this;
-        giveItemButton.onClick.AddListener(delegate { SpawnInventoryItem(); });
-    }
-
-    public void SpawnInventoryItem(Item item = null)
-    {
-        Item _item = item;
-        if (_item == null)
+        foreach (var slot in inventoryItems)
         {
-            int random = Random.Range(0, items.Length);
-            _item = items[random];
-        }
-
-        for (int i = 0; i < inventorySlots.Length; i++)
-        {
-            // Check if slot is empty
-            if (inventorySlots[i].myItem == null)
+            if (slot.item == item)
             {
-                Instantiate(itemPrefab, inventorySlots[i].transform).Initialize(_item, inventorySlots[i]);
-                break;
+                slot.quantity += amount;
+                return;
             }
         }
+
+        inventoryItems.Add(new InventorySlot(item,amount));
     }
 
-    void Update()
+    public void removeItem(Item item, int amount = 1)
     {
-        if (carriedItem == null) return;
-
-        carriedItem.transform.position = Input.mousePosition;
-    }
-
-    public void SetCarriedItem(InventoryItem item)
-    {
-        if(carriedItem != null)
+        for (int i =0; i < inventoryItems.Count; i++)
         {
-            if (item.activeSlot.myTag != SlotTag.None && item.activeSlot.myTag != carriedItem.myItem.itemTag) return;
-            item.activeSlot.SetItem(carriedItem);
-        }
+            if (inventoryItems[i].item == item)
+            {
+                inventoryItems[i].quantity -= amount;
 
-        if(item.activeSlot.myTag != SlotTag.None)
-        {
-            EquipEquipment(item.activeSlot.myTag, null);
-        }
-
-        carriedItem = item;
-        carriedItem.canvasGroup.blocksRaycasts = false;
-        item.transform.SetParent(draggablesTransform);
-    }
-
-    public void EquipEquipment(SlotTag tag, InventoryItem item = null)
-    {
-        switch (tag)
-        {
-            case SlotTag.Head:
-                if (item == null)
+                if (inventoryItems[i].quantity <= 0)
                 {
-                    Debug.Log("Unequipped helmet on " + tag);
+                    inventoryItems.RemoveAt(i);
                 }
-                else
-                {
-                    Debug.Log("Equipped " + item.myItem.name + " on " + tag);
-                }
-                break;
-            case SlotTag.Chest:
-                break;
-            case SlotTag.Legs:
-                break;
-            case SlotTag.Feet:
-                break;
-            case SlotTag.Arms:
-                break;
+
+                return;
+            }
         }
     }
 }

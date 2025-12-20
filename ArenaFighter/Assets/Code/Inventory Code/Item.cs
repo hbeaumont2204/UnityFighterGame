@@ -1,16 +1,17 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
-public enum SlotTag {  None, Head, Chest, Arms, Legs, Feet }
+// Add the rest of armour later
+//public enum ItemType {  Consumable, Weapon, Helmet, Chestplate, Gauntlets, Greaves, Boots }
+public enum ItemType {Consumable, Weapon, Armour}
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Item")]
 public class Item : ScriptableObject
 {
-    public Sprite sprite;
-    public SlotTag itemTag;
+    public String itemName;
+    public Sprite icon;
+    public ItemType type;
 
-
-    [Header("If the item can be equipped")]
-    public GameObject equipmentPrefab;
 }
