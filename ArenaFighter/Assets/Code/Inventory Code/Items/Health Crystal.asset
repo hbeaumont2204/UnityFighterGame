@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de346e8a0c7aa3e4c8ecc7a36c6e2996, type: 3}
-  m_Name: Healing Potion
+  m_Name: Health Crystal
   m_EditorClassIdentifier: Assembly-CSharp::Consumable
   itemName: 
   icon: {fileID: 0}

@@ -1,0 +1,8 @@
+TO DO NEXT:
+
+Sliders for health 
+
+Improve enemy fighting
+
+Nav Mesh for enemy
+

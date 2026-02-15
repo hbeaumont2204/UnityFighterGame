@@ -5,7 +5,17 @@ public class Inventory : MonoBehaviour
 {
     public List<InventorySlot> inventoryItems = new List<InventorySlot>();
 
-
+    public bool checkForItem(Item item)
+    {
+        foreach(var slot in inventoryItems)
+        {
+            if (slot.item == item)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
     public void addItem(Item item, int amount = 1)
     {
         foreach (var slot in inventoryItems)
@@ -22,7 +32,7 @@ public class Inventory : MonoBehaviour
 
     public void removeItem(Item item, int amount = 1)
     {
-        for (int i =0; i < inventoryItems.Count; i++)
+        for (int i = 0; i < inventoryItems.Count; i++)
         {
             if (inventoryItems[i].item == item)
             {

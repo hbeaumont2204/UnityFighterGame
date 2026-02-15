@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     public TextMeshProUGUI silverDisplay;
     private const int max = 9979; // max = 99*80 + 79
 
-    public int health = 100;
+    public int health = 75; // Default is 100, change for testing
     public static int healthIncreases = 0;
     public int maxHealth = 100 + (healthIncreases * 10);
     public int stamina = 100;
@@ -75,6 +75,16 @@ public class Player : MonoBehaviour
             updateCurrency();
             return true;
         }
+    }
+
+    public void addHealth(int amount)
+    {
+        health += amount;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        Debug.Log(health);
     }
 
 }
