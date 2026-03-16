@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public int silver; // Max value 79 (Converted into gold when exceeds 80)
     public int gold; // Max value of 99
     public int total; // total = silver + (gold * 80)
+    
     // Money Display
     public TextMeshProUGUI goldDisplay;
     public TextMeshProUGUI silverDisplay;
@@ -31,6 +32,10 @@ public class Player : MonoBehaviour
     public int xp = 0;
     public int maxXP = 900 + (level * 100);
 
+    // Health/Stamina UI
+    [SerializeField] private Slider healthBar;
+    [SerializeField] private Slider staminaBar;
+
     void Start()
     {
         updateCurrency();
@@ -38,6 +43,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        healthBar.value = health;
+        staminaBar.value = stamina;
     }
 
     //

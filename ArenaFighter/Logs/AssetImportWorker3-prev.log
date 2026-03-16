@@ -1,38 +1,74 @@
+Unity Editor version:    6000.3.11f1 (3000ef702840)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2
+Kernel version:          6.17.0-14-generic
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        5744 MB
+Date:                    2026-03-16T11:31:42Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 16120 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry" at "2026-02-15T21:49:01.3699734Z"
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-02-15T21:49:01Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry" at "2026-03-16T11:31:42.912452Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-harry"
+[Licensing::IpcConnector] LicenseClient-harry channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-6000.3.11" at "2026-03-16T11:31:42.915518Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              235d49a6b9bc45a4946c0a54b4d82c13
+  Correlation Id:          f9cc5fa69e399aed5dcc489fd14839e5
+  External correlation Id: 3700032214982144946
+  Machine Id:              HTQIPHjDFAolY56KiX6bkKBq4Yc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-harry-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-6000.3.11-notifications" at "2026-03-16T11:31:42.919159Z"
+[Licensing::Module] Licensing Background thread has ended after 0.01s
+Selected window backend: (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Unity.exe
+Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+/home/harry/UnityFighterGame/ArenaFighter
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-58951
+37037
 -licensingIpc
 LicenseClient-harry
 -job-worker-count
-7
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name
-AssetImport
-Successfully changed project path to: C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
-C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
+Successfully changed project path to: /home/harry/UnityFighterGame/ArenaFighter
+/home/harry/UnityFighterGame/ArenaFighter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -53,41 +89,17 @@ C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
-    "memorysetup-temp-allocator-size-job-worker=262144"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32352]  Target information:
+Player connection [137380796816192]  Target information:
 
-Player connection [32352]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3408800193 [EditorId] 3408800193 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [137380796816192]  * "[IP] 10.240.84.46 [Port] 0 [Flags] 2 [Guid] 3851872345 [EditorId] 3851872345 [Version] 1048832 [Id] LinuxEditor(16,10.240.84.46) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [32352]  * "[IP] 192.168.1.147 [Port] 0 [Flags] 2 [Guid] 3408800193 [EditorId] 3408800193 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JVTGETHA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [32352] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32352] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
+Player connection [137380796816192] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [137380796816192] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4168, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.3+a4e98f1
-  Session Id:              824ce16410fa4683995d0394eee4ff44
-  Correlation Id:          1df7cfc877f403f730e148b83d58407f
-  External correlation Id: 988218510569313024
-  Machine Id:              ZtxLtOVCLjoc6+vUZtkZdOytQOg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-harry" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-notifications" at "2026-02-15T21:49:01.4229011Z"
-[Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,61 +107,77 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/harry/Documents/github/RPGFighterGame/UnityFighterGame/ArenaFighter/Assets
-GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 7700S (ID=0x7480)
-    Vendor:   ATI
-    VRAM:     8127 MB
-    Driver:   32.0.11036.4002
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/harry/UnityFighterGame/ArenaFighter/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD Radeon 610M (radeonsi, raphael_mendocino, LLVM 20.1.2, DRM 3.64, 6.17.0-14-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_
+clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex
+_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
+_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
+ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1518164912
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Mono path[0] = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56873
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003359 seconds.
-- Loaded All Assemblies, in  0.373 seconds
+Register platform support module: /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002799 seconds.
+- Loaded All Assemblies, in  0.713 seconds
 Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.326 seconds
-Domain Reload Profiling: 695ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  1.045 seconds
+Domain Reload Profiling: 1757ms
+	BeginReloadAssembly (207ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (120ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (205ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (129ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (304ms)
+				TypeCache.ScanAssembly (279ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (326ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1046ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (283ms)
+		SetupLoadedEditorAssemblies (946ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			InitializePlatformSupportModulesInManaged (111ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (286ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -164,62 +192,378 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.862 seconds
-Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.561 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Package Manager log level set to [2]
+Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+UpdateMenuTitleForLanguage: 10
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-ArenaFighter
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
-Domain Reload Profiling: 1734ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  1.671 seconds
+Domain Reload Profiling: 3229ms
+	BeginReloadAssembly (284ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (573ms)
-		LoadAssemblies (425ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1093ms)
+		LoadAssemblies (751ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (250ms)
-			TypeCache.Refresh (181ms)
-				TypeCache.ScanAssembly (167ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (884ms)
+		AnalyzeDomain (461ms)
+			TypeCache.Refresh (341ms)
+				TypeCache.ScanAssembly (315ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1672ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (690ms)
+		SetupLoadedEditorAssemblies (1260ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (441ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (808ms)
+			ProcessInitializeOnLoadMethodAttributes (207ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6984 unused Assets / (8.0 MB). Loaded Objects now: 7741.
-Memory consumption went from 147.4 MB to 139.4 MB.
-Total: 9.974900 ms (FindLiveObjects: 0.824000 ms CreateObjectMapping: 0.622400 ms MarkObjects: 5.342200 ms  DeleteObjects: 3.185100 ms)
+Unloading 6957 unused Assets / (7.5 MB). Loaded Objects now: 7819.
+Memory consumption went from 138.8 MB to 131.3 MB.
+Total: 32.373388 ms (FindLiveObjects: 1.865391 ms CreateObjectMapping: 2.522457 ms MarkObjects: 17.229983 ms  DeleteObjects: 10.746407 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1369.890457 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhiteKing.prefab
+  artifactKey: Guid(09b8d462917baa94ca3b44576ab8cff9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhiteKing.prefab using Guid(09b8d462917baa94ca3b44576ab8cff9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '066b5a48931ac9e5a7da0f615a4e9c9e') in 0.220797057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_Diamond7.prefab
+  artifactKey: Guid(4c9cc37de253b5f4080dedfeea6353c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_Diamond7.prefab using Guid(4c9cc37de253b5f4080dedfeea6353c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b803a163154cee397eb2a2caf9c4fbd4') in 0.049125797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhiteQueen.prefab
+  artifactKey: Guid(9003be27e8deb5e4babf5477ec097ee4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhiteQueen.prefab using Guid(9003be27e8deb5e4babf5477ec097ee4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5f5ecbbdbe47a1940274b9529ec73ff') in 0.013577563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Clubs/Card_ClubJack.prefab
+  artifactKey: Guid(622932214f41b5f4991ddf56e8795153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Clubs/Card_ClubJack.prefab using Guid(622932214f41b5f4991ddf56e8795153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ade351b365f46aac67abe65930a93d1e') in 0.009335544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade2.prefab
+  artifactKey: Guid(9390637788043ab4996f46329650af78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade2.prefab using Guid(9390637788043ab4996f46329650af78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d1568be629c216599a321c3e085a59b') in 0.014298186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade3.prefab
+  artifactKey: Guid(7100f2c9313a17e47914613589bc35b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade3.prefab using Guid(7100f2c9313a17e47914613589bc35b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69ca33a182398a85de8369cf920c5022') in 0.013625754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Imported Assets/DoubleL/One Hand Up/Movement/Run/Base/InPlace/OneHand_Up_Run_B_InPlace.fbx
+  artifactKey: Guid(d4931fb85eba28c4abfddb6deee61a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/One Hand Up/Movement/Run/Base/InPlace/OneHand_Up_Run_B_InPlace.fbx using Guid(d4931fb85eba28c4abfddb6deee61a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ece6d2d65961c1a8109edc6a28af910') in 0.064950853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Clubs/Card_Club6.prefab
+  artifactKey: Guid(bf75833717328c748bbbef20e8986a16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Clubs/Card_Club6.prefab using Guid(bf75833717328c748bbbef20e8986a16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cd2ad32040f1252909a114363b08266') in 0.014897005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_DiamondAce.prefab
+  artifactKey: Guid(60425771b5b8d0c4aae2396f0e61e474) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_DiamondAce.prefab using Guid(60425771b5b8d0c4aae2396f0e61e474) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ea5720d449c2d382922c944b6ff3e66') in 0.016931761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhiteBishop.prefab
+  artifactKey: Guid(c6270810657c6a4419003ca296d5970c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhiteBishop.prefab using Guid(c6270810657c6a4419003ca296d5970c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c6d470a7ce70771ad7981aa04ef0873') in 0.006124312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/CardTable.prefab
+  artifactKey: Guid(cf856591953c8ed4bad3e9d863896e12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/CardTable.prefab using Guid(cf856591953c8ed4bad3e9d863896e12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e2915d569e51e25704b897b95349b0a') in 0.009485424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade7.prefab
+  artifactKey: Guid(43a65f7850aaa2a4a810e6e412524732) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade7.prefab using Guid(43a65f7850aaa2a4a810e6e412524732) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2626d65026aeb18de02cbb6a1c6fa0b') in 0.010372129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_Diamond6.prefab
+  artifactKey: Guid(e36439ac5efe26e46ac2978ca26d063f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_Diamond6.prefab using Guid(e36439ac5efe26e46ac2978ca26d063f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '605c861496dcb61e79a837fcd844adff') in 0.00882682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_Diamond4.prefab
+  artifactKey: Guid(29d6161b16de378468bf98bea7e7d085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Diamonds/Card_Diamond4.prefab using Guid(29d6161b16de378468bf98bea7e7d085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b27bac9344a20eca4acfe304106d073') in 0.011910243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imported Assets/ThreeDragons/Long Sword/Textures/Long Sword/Long Sword_color.png
+  artifactKey: Guid(c52ea5eed9677264d86bb43ef2ac72c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/ThreeDragons/Long Sword/Textures/Long Sword/Long Sword_color.png using Guid(c52ea5eed9677264d86bb43ef2ac72c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c6d46d11cf485b5cb7cfedb4196d0cc') in 0.129550683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Imported Assets/DoubleL/One Hand Up/Movement/Crouch/Base/OneHand_Up_Crouch_F.fbx
+  artifactKey: Guid(23f876bcd0155a14099ae55d2cf82f81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/One Hand Up/Movement/Crouch/Base/OneHand_Up_Crouch_F.fbx using Guid(23f876bcd0155a14099ae55d2cf82f81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0547780fbd9215e19eed2e2e7807763f') in 0.013349741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Hearts/Card_HeartKing.prefab
+  artifactKey: Guid(7e4e4c09d820ec34dbfd247cb5efdd72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Hearts/Card_HeartKing.prefab using Guid(7e4e4c09d820ec34dbfd247cb5efdd72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f1ebaad9549edecb540e1def83184e0') in 0.009094102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/BlackPawn.prefab
+  artifactKey: Guid(0fc39e6a63279bc4b9c417c5c19e9956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/BlackPawn.prefab using Guid(0fc39e6a63279bc4b9c417c5c19e9956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8187f8176793819fcbda770ab0d782e2') in 0.006531626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Dominos/Domino_2-4.prefab
+  artifactKey: Guid(7e5dcb505c6fd9443be8739a93b4ce9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Dominos/Domino_2-4.prefab using Guid(7e5dcb505c6fd9443be8739a93b4ce9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c2cc4389eee6ff2463db611711b5099') in 0.008358814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Dominos/Domino_4-6.prefab
+  artifactKey: Guid(4a174cf8b7957bc479eeb1066239ed9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Dominos/Domino_4-6.prefab using Guid(4a174cf8b7957bc479eeb1066239ed9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e9a8d58b94382073c5f38ed21a5a783') in 0.006724667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/PokerChips/PokerChip_Black.prefab
+  artifactKey: Guid(b601630c0d218a641b6705996525e2dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/PokerChips/PokerChip_Black.prefab using Guid(b601630c0d218a641b6705996525e2dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c3b323e2b32560a11010984b9510ca0') in 0.008017359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTowerTexture.mat
+  artifactKey: Guid(50396243bd3aa4e40bff949c37ac7034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTowerTexture.mat using Guid(50396243bd3aa4e40bff949c37ac7034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d52166074deca7026c001bf0cd41c16') in 0.052172832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Metallic.png
+  artifactKey: Guid(03159f8be35accb4883befca9d0641e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Textures/GamePieces/GamePieces_Metallic.png using Guid(03159f8be35accb4883befca9d0641e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c732eed3dd2cd5b33a9cb206a6839726') in 0.034321262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhitePawn.prefab
+  artifactKey: Guid(ec00beda5f90bc84d93bdc1d4ab2fbfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Chess/WhitePawn.prefab using Guid(ec00beda5f90bc84d93bdc1d4ab2fbfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae43f3cb77315c612665fcc1b6d1254f') in 0.007180032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Hearts/Card_Heart3.prefab
+  artifactKey: Guid(b06f177e70830554cbac3176a3263482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Hearts/Card_Heart3.prefab using Guid(b06f177e70830554cbac3176a3263482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce08c9bf3b9e989128fb3a1b0bef2c10') in 0.011067538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTowerBTexture.mat
+  artifactKey: Guid(d109c562280f9fd4781d5063646e527c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTowerBTexture.mat using Guid(d109c562280f9fd4781d5063646e527c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '904899079eecc3dc80b5c67c136a7239') in 0.011191367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Hearts/Card_Heart5.prefab
+  artifactKey: Guid(b2092b6f8a97f5b4999b5db5971ca85d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Hearts/Card_Heart5.prefab using Guid(b2092b6f8a97f5b4999b5db5971ca85d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2c0863029570a2177245ac8b315a1b0') in 0.010581512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Imported Assets/DoubleL/One Hand Up/Movement/Run/Base/OneHand_Up_Run_F.fbx
+  artifactKey: Guid(b8885549427338747849450925b4d084) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/One Hand Up/Movement/Run/Base/OneHand_Up_Run_F.fbx using Guid(b8885549427338747849450925b4d084) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62d269f57a02b2173e95961aab18567e') in 0.016360878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Models/GamePieces/BoardGamePiece_Green.fbx
+  artifactKey: Guid(42d57cb788816a24db4772691fe0a5d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Models/GamePieces/BoardGamePiece_Green.fbx using Guid(42d57cb788816a24db4772691fe0a5d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e237e3e00374cea4dbca8ba6e3a2a723') in 0.018844155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported Assets/DoubleL/One Hand Up/Movement/Sprint/Base/OneHand_Up_Sprint_F.fbx
+  artifactKey: Guid(8a53179da01f5c14abec2840ac523590) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/One Hand Up/Movement/Sprint/Base/OneHand_Up_Sprint_F.fbx using Guid(8a53179da01f5c14abec2840ac523590) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e10e022542fab52999ee682c0a0ce94') in 0.016405158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imported Assets/DoubleL/Demo/Animator/New Animator Controller.controller
+  artifactKey: Guid(c925368948d9ced448955398a9cadd44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/Demo/Animator/New Animator Controller.controller using Guid(c925368948d9ced448955398a9cadd44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3416ff30c975d6977f3ae2b2e3ac1a16') in 0.007011855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imported Assets/DoubleL/Actions/Ladder/Ladder_Up_Play_InPlace.fbx
+  artifactKey: Guid(3f1bd44a67d3ebc41a0673c95391a4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/Actions/Ladder/Ladder_Up_Play_InPlace.fbx using Guid(3f1bd44a67d3ebc41a0673c95391a4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9acc0796b71436716502422f6ad2ed25') in 0.017074516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imported Assets/DoubleL/One Hand Up/Movement/Walk/Base/OneHand_Up_Walk_F.fbx
+  artifactKey: Guid(d22de05a8d1f7fb4c9750ac96596dc5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/One Hand Up/Movement/Walk/Base/OneHand_Up_Walk_F.fbx using Guid(d22de05a8d1f7fb4c9750ac96596dc5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '162e48f8a985ecac33ca503b52a16c87') in 0.016074668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c46a30dad201fbb0a885908673590015') in 0.014793011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imported Assets/Lima Computational Design/Epic 2D RPG Treasure Collection/Gemstones/Green/gemstones_s6_09.png
+  artifactKey: Guid(a3459b29580e43146a8e4755879daf75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/Lima Computational Design/Epic 2D RPG Treasure Collection/Gemstones/Green/gemstones_s6_09.png using Guid(a3459b29580e43146a8e4755879daf75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f69718aebb50b2aa826cde5e6371b88a') in 0.021272257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imported Assets/DoubleL/One Hand Up/Sheild/Idle/OneHand_Up_Shield_Block_Idle.fbx
+  artifactKey: Guid(ba9d566ad24629042a2255ea80712016) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/DoubleL/One Hand Up/Sheild/Idle/OneHand_Up_Shield_Block_Idle.fbx using Guid(ba9d566ad24629042a2255ea80712016) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51abdf0b0467aa1aa5f682697dba3193') in 0.016056929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade5.prefab
+  artifactKey: Guid(6e1fbba2f7fdcd545836f680a62c6f74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Prefabs/Individual Pieces/Cards/Spades/Card_Spade5.prefab using Guid(6e1fbba2f7fdcd545836f680a62c6f74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1ec7cdf338004658fb7061aeb22b2b5') in 0.010154573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imported Assets/Lima Computational Design/Epic 2D RPG Treasure Collection/Gemstones/Green/gemstones_s6_05.png
+  artifactKey: Guid(3d4625d5d842d2449b870b5688cc9c35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/Lima Computational Design/Epic 2D RPG Treasure Collection/Gemstones/Green/gemstones_s6_05.png using Guid(3d4625d5d842d2449b870b5688cc9c35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1591a7918bc7e203da6700eb89c7c97d') in 0.010894052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondQueen.fbx
+  artifactKey: Guid(837ed1fda1828f3478714f52972902d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imported Assets/SubstanceAssets/LittleGamesPack/Models/Cards/Card_DiamondQueen.fbx using Guid(837ed1fda1828f3478714f52972902d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b62492ca89bb9f607ccd3533738944db') in 0.012968687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 

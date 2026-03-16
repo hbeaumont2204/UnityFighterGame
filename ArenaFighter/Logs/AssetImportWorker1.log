@@ -1,24 +1,32 @@
-Unity Editor version:    6000.3.6f1 (bbb010bdb8a3)
-Branch:                  6000.3/respin/6000.3.6f1-732c1ec89f18
+Unity Editor version:    6000.3.11f1 (3000ef702840)
+Branch:                  6000.3/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
-Distro version:          #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
-Kernel version:          6.14.0-37-generic
+Distro version:          #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2
+Kernel version:          6.17.0-14-generic
 Architecture:            x86_64
-Available memory:        5745 MB
-Date:                    2026-02-16T10:14:50Z
+Window Protocol:         Wayland (XWayland)
+Available memory:        5744 MB
+Date:                    2026-03-16T11:38:43Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-beaumont-smith" at "2026-02-16T10:14:50.470504Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry" at "2026-03-16T11:38:43.72017Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-harry"
+[Licensing::IpcConnector] LicenseClient-harry channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-6000.3.11" at "2026-03-16T11:38:43.72575Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              19b0ad73553b48f4b64f523e5289eea6
-  Correlation Id:          930bbfe0f24d447d9025e09da0942d9d
-  External correlation Id: 7884935375502589890
-  Machine Id:              bkjlpO85UhbMJRAWRPQ92NOysvg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-harry-beaumont-smith" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-beaumont-smith-notifications" at "2026-02-16T10:14:50.483896Z"
+  Version:                 1.18.0+23225a6
+  Session Id:              78a8ae3ac7f4401e832926674bfb9459
+  Correlation Id:          7667e31cd14d7b075e1e35426fda8a6e
+  External correlation Id: 5128002763044568249
+  Machine Id:              HTQIPHjDFAolY56KiX6bkKBq4Yc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-harry-6000.3.11" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-6000.3.11-notifications" at "2026-03-16T11:38:43.733838Z"
 [Licensing::Module] Licensing Background thread has ended after 0.01s
 Selected window backend: (null) 
 Desktop is 1920 x 1080 @ 60 Hz
@@ -32,21 +40,21 @@ Unity
 -name
 AssetImportWorker1
 -projectPath
-/home/harry-beaumont-smith/UnityFighterGame/ArenaFighter
+/home/harry/UnityFighterGame/ArenaFighter
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-43923
+33471
 -licensingIpc
-LicenseClient-harry-beaumont-smith
+LicenseClient-harry
 -job-worker-count
 3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: /home/harry-beaumont-smith/UnityFighterGame/ArenaFighter
-/home/harry-beaumont-smith/UnityFighterGame/ArenaFighter
+Successfully changed project path to: /home/harry/UnityFighterGame/ArenaFighter
+/home/harry/UnityFighterGame/ArenaFighter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -82,12 +90,12 @@ Successfully changed project path to: /home/harry-beaumont-smith/UnityFighterGam
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [138025188895552]  Target information:
+Player connection [128644085914432]  Target information:
 
-Player connection [138025188895552]  * "[IP] 10.240.84.15 [Port] 0 [Flags] 2 [Guid] 2532099714 [EditorId] 2532099714 [Version] 1048832 [Id] LinuxEditor(16,10.240.84.15) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [128644085914432]  * "[IP] 10.240.84.46 [Port] 0 [Flags] 2 [Guid] 2836538865 [EditorId] 2836538865 [Version] 1048832 [Id] LinuxEditor(16,10.240.84.46) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [138025188895552] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [138025188895552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [128644085914432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [128644085914432] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -99,15 +107,15 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 102.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 11.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
-[Subsystems] Discovering subsystems at path /home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/harry-beaumont-smith/UnityFighterGame/ArenaFighter/Assets
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/harry/UnityFighterGame/ArenaFighter/Assets
 kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
 GfxDevice: creating device client; kGfxThreadingModeDirect
-GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
-Renderer: AMD Radeon 610M (radeonsi, raphael_mendocino, LLVM 20.1.2, DRM 3.61, 6.14.0-37-generic)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD Radeon 610M (radeonsi, raphael_mendocino, LLVM 20.1.2, DRM 3.64, 6.17.0-14-generic)
 Vendor:   AMD
 Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
 GLES:     0
@@ -118,55 +126,58 @@ clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessel
 _attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
 _EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
 ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1665771248
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1033354128
 Initialize mono
-Mono path[0] = '/home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
-Mono path[1] = '/home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
-Mono config path = '/home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56815
+Mono path[0] = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56209
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.017745 seconds.
-- Loaded All Assemblies, in  1.362 seconds
+Register platform support module: /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003329 seconds.
+- Loaded All Assemblies, in  0.628 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.181 seconds
-Domain Reload Profiling: 2543ms
-	BeginReloadAssembly (677ms)
+- Finished resetting the current domain, in  0.791 seconds
+Domain Reload Profiling: 1418ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (165ms)
-	LoadAllAssembliesAndSetupDomain (415ms)
-		LoadAssemblies (677ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (407ms)
-			TypeCache.Refresh (403ms)
-				TypeCache.ScanAssembly (376ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (256ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1182ms)
+	FinalizeReload (791ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1082ms)
+		SetupLoadedEditorAssemblies (703ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (120ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (260ms)
-			ProcessInitializeOnLoadAttributes (434ms)
-			ProcessInitializeOnLoadMethodAttributes (256ms)
+			InitializePlatformSupportModulesInManaged (98ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -181,10 +192,13 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in 26.723 seconds
-Refreshing native plugins compatible for Editor in 16.62 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.304 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -194,43 +208,79 @@ UpdateMenuTitleForLanguage: 10
 [MODES] Loading mode Default (0) for mode-current-id-ArenaFighter
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.877 seconds
-Domain Reload Profiling: 35634ms
-	BeginReloadAssembly (345ms)
+- Finished resetting the current domain, in  1.466 seconds
+Domain Reload Profiling: 2768ms
+	BeginReloadAssembly (238ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (26223ms)
-		LoadAssemblies (1062ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (917ms)
+		LoadAssemblies (671ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25293ms)
-			TypeCache.Refresh (894ms)
-				TypeCache.ScanAssembly (696ms)
-			BuildScriptInfoCaches (1082ms)
-			ResolveRequiredComponents (23296ms)
-	FinalizeReload (8878ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (232ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1467ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5169ms)
+		SetupLoadedEditorAssemblies (1135ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (53ms)
-			BeforeProcessingInitializeOnLoad (1675ms)
-			ProcessInitializeOnLoadAttributes (2939ms)
-			ProcessInitializeOnLoadMethodAttributes (432ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (704ms)
+			ProcessInitializeOnLoadMethodAttributes (188ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6957 unused Assets / (8.4 MB). Loaded Objects now: 7819.
+Memory consumption went from 138.8 MB to 130.5 MB.
+Total: 24.326067 ms (FindLiveObjects: 1.148610 ms CreateObjectMapping: 1.540280 ms MarkObjects: 12.362954 ms  DeleteObjects: 9.266611 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1941.007411 seconds.
+  path: Assets/Code/Inventory Code/Items/Chestplate.asset
+  artifactKey: Guid(569773c59efbf8d499a66c04acafb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Inventory Code/Items/Chestplate.asset using Guid(569773c59efbf8d499a66c04acafb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29456b3179b73264cf30dd8c95a53cbf') in 0.049166026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163793 seconds.
+  path: Assets/Code/Inventory Code/Items/Health Crystal.asset
+  artifactKey: Guid(72c69752a02a40144b33502446aa2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Inventory Code/Items/Health Crystal.asset using Guid(72c69752a02a40144b33502446aa2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd46bff1d68fd9c6b625a1747fa434e4b') in 0.002526369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Code/Inventory Code/Items/Helmet.asset
+  artifactKey: Guid(9c368762a89039142916d4d5f5ac6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Inventory Code/Items/Helmet.asset using Guid(9c368762a89039142916d4d5f5ac6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0d82509b01a07c98aa1ed0de2301ebd') in 0.002156349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations

@@ -1,25 +1,33 @@
-Unity Editor version:    6000.3.6f1 (bbb010bdb8a3)
-Branch:                  6000.3/respin/6000.3.6f1-732c1ec89f18
+Unity Editor version:    6000.3.11f1 (3000ef702840)
+Branch:                  6000.3/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
-Distro version:          #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
-Kernel version:          6.14.0-37-generic
+Distro version:          #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2
+Kernel version:          6.17.0-14-generic
 Architecture:            x86_64
-Available memory:        5745 MB
-Date:                    2026-02-16T10:14:51Z
+Window Protocol:         Wayland (XWayland)
+Available memory:        5744 MB
+Date:                    2026-03-16T11:41:22Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-beaumont-smith" at "2026-02-16T10:14:51.454587Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry" at "2026-03-16T11:41:22.054427Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-harry"
+[Licensing::IpcConnector] LicenseClient-harry channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-6000.3.11" at "2026-03-16T11:41:22.068158Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              4b8b64d6736a4e30912e125cdb5fceaf
-  Correlation Id:          930bbfe0f24d447d9025e09da0942d9d
-  External correlation Id: 647301976019191895
-  Machine Id:              bkjlpO85UhbMJRAWRPQ92NOysvg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-harry-beaumont-smith" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-beaumont-smith-notifications" at "2026-02-16T10:14:51.462761Z"
-[Licensing::Module] Licensing Background thread has ended after 0.01s
+  Version:                 1.18.0+23225a6
+  Session Id:              1ec843405ae74f11915d1a87f5dc28f2
+  Correlation Id:          7667e31cd14d7b075e1e35426fda8a6e
+  External correlation Id: 3407479742358792096
+  Machine Id:              HTQIPHjDFAolY56KiX6bkKBq4Yc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-harry-6000.3.11" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-harry-6000.3.11-notifications" at "2026-03-16T11:41:22.078643Z"
+[Licensing::Module] Licensing Background thread has ended after 0.02s
 Selected window backend: (null) 
 Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
@@ -32,21 +40,21 @@ Unity
 -name
 AssetImportWorker2
 -projectPath
-/home/harry-beaumont-smith/UnityFighterGame/ArenaFighter
+/home/harry/UnityFighterGame/ArenaFighter
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-43923
+33471
 -licensingIpc
-LicenseClient-harry-beaumont-smith
+LicenseClient-harry
 -job-worker-count
 3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: /home/harry-beaumont-smith/UnityFighterGame/ArenaFighter
-/home/harry-beaumont-smith/UnityFighterGame/ArenaFighter
+Successfully changed project path to: /home/harry/UnityFighterGame/ArenaFighter
+/home/harry/UnityFighterGame/ArenaFighter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -82,12 +90,12 @@ Successfully changed project path to: /home/harry-beaumont-smith/UnityFighterGam
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [129489507773248]  Target information:
+Player connection [133205161814848]  Target information:
 
-Player connection [129489507773248]  * "[IP] 10.240.84.15 [Port] 0 [Flags] 2 [Guid] 4248283888 [EditorId] 4248283888 [Version] 1048832 [Id] LinuxEditor(16,10.240.84.15) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [133205161814848]  * "[IP] 10.240.84.46 [Port] 0 [Flags] 2 [Guid] 2675740617 [EditorId] 2675740617 [Version] 1048832 [Id] LinuxEditor(16,10.240.84.46) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [129489507773248] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [129489507773248] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [133205161814848] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [133205161814848] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -99,15 +107,15 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 15.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
-[Subsystems] Discovering subsystems at path /home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/harry-beaumont-smith/UnityFighterGame/ArenaFighter/Assets
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/harry/UnityFighterGame/ArenaFighter/Assets
 kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
 GfxDevice: creating device client; kGfxThreadingModeDirect
-GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
-Renderer: AMD Radeon 610M (radeonsi, raphael_mendocino, LLVM 20.1.2, DRM 3.61, 6.14.0-37-generic)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD Radeon 610M (radeonsi, raphael_mendocino, LLVM 20.1.2, DRM 3.64, 6.17.0-14-generic)
 Vendor:   AMD
 Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
 GLES:     0
@@ -118,55 +126,58 @@ clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessel
 _attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
 _EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
 ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1239959088
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1710712048
 Initialize mono
-Mono path[0] = '/home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
-Mono path[1] = '/home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
-Mono config path = '/home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56895
+Mono path[0] = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /home/harry-beaumont-smith/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003304 seconds.
-- Loaded All Assemblies, in  0.790 seconds
+Register platform support module: /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/harry/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003008 seconds.
+- Loaded All Assemblies, in  0.623 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.125 seconds
-Domain Reload Profiling: 1915ms
-	BeginReloadAssembly (212ms)
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (198ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (133ms)
-	LoadAllAssembliesAndSetupDomain (343ms)
-		LoadAssemblies (211ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (197ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (333ms)
-			TypeCache.Refresh (329ms)
-				TypeCache.ScanAssembly (298ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (233ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1126ms)
+	FinalizeReload (725ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1009ms)
+		SetupLoadedEditorAssemblies (649ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (128ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (219ms)
-			ProcessInitializeOnLoadAttributes (440ms)
-			ProcessInitializeOnLoadMethodAttributes (213ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -181,10 +192,13 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in 26.603 seconds
-Refreshing native plugins compatible for Editor in 23.83 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.124 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -194,43 +208,551 @@ UpdateMenuTitleForLanguage: 10
 [MODES] Loading mode Default (0) for mode-current-id-ArenaFighter
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.878 seconds
-Domain Reload Profiling: 35521ms
-	BeginReloadAssembly (293ms)
+- Finished resetting the current domain, in  1.423 seconds
+Domain Reload Profiling: 2549ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (755ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (209ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1071ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (649ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6957 unused Assets / (8.6 MB). Loaded Objects now: 7819.
+Memory consumption went from 138.8 MB to 130.2 MB.
+Total: 22.340829 ms (FindLiveObjects: 1.269435 ms CreateObjectMapping: 2.069257 ms MarkObjects: 10.035354 ms  DeleteObjects: 8.957773 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1980.260782 seconds.
+  path: Assets/Code/Inventory Code/ItemPickup.cs
+  artifactKey: Guid(038316409cdec984fa2aa3991422a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Inventory Code/ItemPickup.cs using Guid(038316409cdec984fa2aa3991422a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '840d2cd6b4b8722cfc0dc5d8aa1b538f') in 0.010605398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.126 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.386 seconds
+Domain Reload Profiling: 2516ms
+	BeginReloadAssembly (318ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (702ms)
+		LoadAssemblies (580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (225ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1387ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1077ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (256ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6953 unused Assets / (6.0 MB). Loaded Objects now: 7836.
+Memory consumption went from 143.7 MB to 137.8 MB.
+Total: 15.758428 ms (FindLiveObjects: 0.927212 ms CreateObjectMapping: 1.417848 ms MarkObjects: 9.043957 ms  DeleteObjects: 4.360890 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 131.653912 seconds.
+  path: Assets/Code/Player
+  artifactKey: Guid(bb39194e533c08846bc49be7f5b3746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Player using Guid(bb39194e533c08846bc49be7f5b3746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6aa889d212b892a3169f9f2cdf53c35') in 0.056971487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478504 seconds.
+  path: Assets/Code/Player/Player.cs
+  artifactKey: Guid(0f1ccd76370365340986092f93828832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Player/Player.cs using Guid(0f1ccd76370365340986092f93828832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '108e72e0f7d30fe4bb3786f843332538') in 0.0009592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.441 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.433 seconds
+Domain Reload Profiling: 3880ms
+	BeginReloadAssembly (1059ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (87ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (419ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1197ms)
+		LoadAssemblies (979ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (464ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (341ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6953 unused Assets / (6.3 MB). Loaded Objects now: 7839.
+Memory consumption went from 143.7 MB to 137.4 MB.
+Total: 16.566910 ms (FindLiveObjects: 0.911848 ms CreateObjectMapping: 1.197778 ms MarkObjects: 9.799360 ms  DeleteObjects: 4.649823 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.072471 seconds.
+  path: Assets/Code/Player/Player.cs
+  artifactKey: Guid(0f1ccd76370365340986092f93828832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Player/Player.cs using Guid(0f1ccd76370365340986092f93828832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a1b331e74d839a18ed65d495dd71214') in 0.002771092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.942196 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Test.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '425f01a527c3ca4aa448f93501f4214b') in 0.100377213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.585 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.339 seconds
+Domain Reload Profiling: 2927ms
+	BeginReloadAssembly (500ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (163ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (956ms)
+		LoadAssemblies (678ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (302ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1051ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6953 unused Assets / (8.0 MB). Loaded Objects now: 7842.
+Memory consumption went from 143.8 MB to 135.7 MB.
+Total: 23.307990 ms (FindLiveObjects: 1.394312 ms CreateObjectMapping: 2.325366 ms MarkObjects: 12.200084 ms  DeleteObjects: 7.379220 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 215.748757 seconds.
+  path: Assets/Code/Player/Player.cs
+  artifactKey: Guid(0f1ccd76370365340986092f93828832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Player/Player.cs using Guid(0f1ccd76370365340986092f93828832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb0092795dc8d3f51935677104451f7') in 0.004399233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.093 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.326 seconds
+Domain Reload Profiling: 2422ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (724ms)
+		LoadAssemblies (539ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (237ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1042ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (615ms)
+			ProcessInitializeOnLoadMethodAttributes (188ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6953 unused Assets / (8.1 MB). Loaded Objects now: 7845.
+Memory consumption went from 143.8 MB to 135.7 MB.
+Total: 23.941661 ms (FindLiveObjects: 1.361416 ms CreateObjectMapping: 2.231778 ms MarkObjects: 12.672421 ms  DeleteObjects: 7.665011 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.085 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.352 seconds
+Domain Reload Profiling: 2440ms
+	BeginReloadAssembly (250ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (26188ms)
-		LoadAssemblies (972ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (730ms)
+		LoadAssemblies (542ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25283ms)
-			TypeCache.Refresh (894ms)
-				TypeCache.ScanAssembly (693ms)
-			BuildScriptInfoCaches (1042ms)
-			ResolveRequiredComponents (23270ms)
-	FinalizeReload (8879ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (238ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1353ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5150ms)
+		SetupLoadedEditorAssemblies (1069ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (60ms)
-			SetLoadedEditorAssemblies (52ms)
-			BeforeProcessingInitializeOnLoad (1722ms)
-			ProcessInitializeOnLoadAttributes (2891ms)
-			ProcessInitializeOnLoadMethodAttributes (412ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (634ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6953 unused Assets / (6.1 MB). Loaded Objects now: 7848.
+Memory consumption went from 143.8 MB to 137.7 MB.
+Total: 17.477292 ms (FindLiveObjects: 1.115365 ms CreateObjectMapping: 1.559905 ms MarkObjects: 9.903563 ms  DeleteObjects: 4.890426 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.342 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.381 seconds
+Domain Reload Profiling: 2727ms
+	BeginReloadAssembly (358ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (873ms)
+		LoadAssemblies (746ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (250ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1097ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (245ms)
+			ProcessInitializeOnLoadAttributes (627ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
 			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (3ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6953 unused Assets / (7.1 MB). Loaded Objects now: 7851.
+Memory consumption went from 143.9 MB to 136.8 MB.
+Total: 25.134340 ms (FindLiveObjects: 1.520095 ms CreateObjectMapping: 2.452686 ms MarkObjects: 13.917202 ms  DeleteObjects: 7.028267 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.093 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.372 seconds
+Domain Reload Profiling: 2467ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (708ms)
+		LoadAssemblies (543ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (237ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1094ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (650ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6953 unused Assets / (8.1 MB). Loaded Objects now: 7854.
+Memory consumption went from 144.0 MB to 135.9 MB.
+Total: 25.397921 ms (FindLiveObjects: 1.602997 ms CreateObjectMapping: 2.290026 ms MarkObjects: 14.243919 ms  DeleteObjects: 7.252947 ms)
+
+Prepare: number of updated asset objects reloaded= 0
