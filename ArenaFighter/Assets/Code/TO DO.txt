@@ -1,8 +1,15 @@
 TO DO NEXT:
 
-Sliders for health 
+Fix Wave Manager
 
-Improve enemy fighting
+Death menu ui
 
-Nav Mesh for enemy
 
+
+
+
+Fireball spell
+
+Add stamina
+
+Add levels + xp

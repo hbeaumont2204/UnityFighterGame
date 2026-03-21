@@ -6,6 +6,8 @@ using TMPro;
 
 public class Player : MonoBehaviour
 {
+
+    public GameObject deathMenu;
     /* 
     Currency divided into silver and gold 
     Gold converted into silver when buying and selling. 
@@ -38,6 +40,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        deathMenu.SetActive(false);
         updateCurrency();
         Debug.Log(health/maxHealth);
         healthBar.value = health/maxHealth;
@@ -104,9 +107,15 @@ public class Player : MonoBehaviour
         healthBar.value = health/maxHealth;
         if (health <= 0)
         {
-            Debug.Log("Dead");
-            // Finish
+            death();
         }
+    }
+
+    public void death()
+    {
+        String xpLabel = "XP gained " + xp;
+        deathMenu.SetActive(true);
+        deathMenu.GetComponent<DeathScreen>();
     }
 
 }

@@ -9,8 +9,9 @@ public class Spawner : MonoBehaviour
     public GameObject enemy2; // Stronger enemy than default
     public GameObject enemy3; // Weaker enemy that does more damage
 
-    
+    public bool bossSpawner = false;
 
+    
     int count;
     int total = 0;
     void Start()
@@ -20,25 +21,28 @@ public class Spawner : MonoBehaviour
 
     void Update()
     {
-        count = waveManager.getEnemyCount();
-        if (count == 0)
+        if (!bossSpawner)
         {
-            if (total % 5 == 0) // Chance of stronger enemy spawning
+            count = waveManager.getEnemyCount();
+            if (count < 6)
             {
-                int n1 = Random.Range(1,10);
-                int n2 = Random.Range(1,10);
-                if (n1 == n2)
+                if (total % 5 == 0) // Chance of stronger enemy spawning
                 {
-                    spawn(enemy2);
+                    int n1 = Random.Range(1,10);
+                    int n2 = Random.Range(1,10);
+                    if (n1 == n2)
+                    {
+                        spawn(enemy2);
+                    }
+                    else
+                    {
+                        spawn(enemy3);
+                    }
                 }
                 else
                 {
-                    spawn(enemy3);
+                    spawn(enemy);
                 }
-            }
-            else
-            {
-                spawn(enemy);
             }
         }
     }
