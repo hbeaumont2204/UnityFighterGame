@@ -6,7 +6,6 @@ Fix Wave Manager - Done
 Main Menu
 
 
-
 Fireball spell
 
 Add stamina
