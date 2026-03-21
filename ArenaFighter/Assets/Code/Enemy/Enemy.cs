@@ -25,4 +25,13 @@ public class Enemy : MonoBehaviour
         //Debug.Log("Damage");
         enemyHealth -= damage;
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Player player = other.GetComponent<Player>();
+            player.reduceHealth(5);
+        }
+    }
 }

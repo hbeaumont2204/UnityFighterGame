@@ -98,4 +98,15 @@ public class Player : MonoBehaviour
         healthBar.value = health/maxHealth;
     }
 
+    public void reduceHealth(int amount)
+    {
+        health -= amount;
+        healthBar.value = health/maxHealth;
+        if (health <= 0)
+        {
+            Debug.Log("Dead");
+            // Finish
+        }
+    }
+
 }

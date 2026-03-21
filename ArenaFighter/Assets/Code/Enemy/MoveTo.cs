@@ -4,9 +4,14 @@
 
     public class MoveTo : MonoBehaviour {
 
-       public Transform goal;
+      public Transform goal;
 
-       void Update () {
+    void Start()
+    {
+      goal = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
+    void Update () {
           NavMeshAgent agent = GetComponent<NavMeshAgent>();
           agent.destination = goal.position;
        }
