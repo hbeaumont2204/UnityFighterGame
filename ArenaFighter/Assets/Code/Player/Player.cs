@@ -113,9 +113,12 @@ public class Player : MonoBehaviour
 
     public void death()
     {
-        String xpLabel = "XP gained " + xp;
+        // PAUSE NEEDED
+        String xpLabel = "XP gained: " + xp;
         deathMenu.SetActive(true);
-        deathMenu.GetComponent<DeathScreen>();
+        DeathScreen deathScreen = deathMenu.GetComponent<DeathScreen>();
+        deathScreen.setXPLabel(xpLabel);
+
     }
 
 }

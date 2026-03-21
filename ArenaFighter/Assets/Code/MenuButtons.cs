@@ -14,7 +14,7 @@ public class MenuButtons : MonoBehaviour
     // Main Menu buttons
     public void play_game()
     {
-        SceneManager.LoadSceneAsync("Game");
+        SceneManager.LoadSceneAsync("Lobby");
     }
 
     public void loadGame()
