@@ -10,8 +10,8 @@ public class Spawner : MonoBehaviour
     public GameObject enemy3; // Weaker enemy that does more damage
 
     public bool bossSpawner = false;
+    public bool active = true;
 
-    
     int count;
     int total = 0;
     void Start()
@@ -19,12 +19,13 @@ public class Spawner : MonoBehaviour
         spawn(enemy);
     }
 
+
     void Update()
     {
         if (!bossSpawner)
         {
             count = waveManager.getEnemyCount();
-            if (count < 6)
+            if (count < 6 & active)
             {
                 if (total % 5 == 0) // Chance of stronger enemy spawning
                 {
@@ -43,9 +44,13 @@ public class Spawner : MonoBehaviour
                 {
                     spawn(enemy);
                 }
+                active = false;
             }
         }
+        
+        active = waveManager.getActive();
     }
+
 
     void spawn(GameObject enemy)
     {

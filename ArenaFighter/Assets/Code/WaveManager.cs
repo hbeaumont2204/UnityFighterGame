@@ -4,18 +4,29 @@ using UnityEngine;
 public class WaveManager : MonoBehaviour
 {
     int waveNumber = 1;
-    bool waveStarted = false;
+    bool waveActive = false;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        waveStarted = true;
+        //waveActive = true;
     }
+    
 
     // Update is called once per frame
     void Update()
     {
-        getEnemyCount();
+        if (getEnemyCount() == 0) // Starts a new wave of enemies
+        {
+            waveActive = true;
+        }
+        else // Doesn't spawn new enemies until there are none left
+        {
+            waveActive = false; 
+        }
     }
+
 
     public int getEnemyCount()
     {
@@ -23,5 +34,11 @@ public class WaveManager : MonoBehaviour
         int count = enemies.Length;
         Debug.Log("Enemy Count: " + count);
         return count;
+    }
+
+
+    public bool getActive()
+    {
+        return waveActive;
     }
 }

@@ -99,7 +99,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -250,20 +250,11 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 54832
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -11474
-      - m_Data: -7482
-      - m_Data: -7354
-      - m_Data: -6244
-      - m_Data: -1332
-      - m_Data: 54864
-      - m_Data: 54914
-      - m_Data: 54932
-      - m_Data: 54942
+      - m_Data: -1318
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1048,7 +1039,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Code/Enemy
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1058,7 +1049,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Code/Enemy
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\harry\Documents\github\RPGFighterGame\UnityFighterGame\ArenaFighter
   m_LockTracker:
@@ -1067,9 +1058,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 54}
     m_SelectedIDs:
-    - m_Data: 54820
+    - m_Data: 54806
     m_LastClickedID:
-      m_Data: 54820
+      m_Data: 54806
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 54668
@@ -1139,9 +1130,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 54832
-    m_LastClickedInstanceID: 54832
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
