@@ -1,7 +1,7 @@
 TO DO NEXT:
 
 Fix Wave Manager - Done
-Inventory update - Armour
+Inventory update - Armour (Helmet done)
 
 Main Menu
 
