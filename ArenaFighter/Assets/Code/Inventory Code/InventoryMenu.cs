@@ -1,20 +1,21 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventoryMenu : MonoBehaviour
 {
-
     public Inventory inventory;
 
     public GameObject inventorySlot; // Slot prefab
     public Transform InventoryPanel; // Inventory UI
+    public Transform helmetPanel;
+    public Transform chestPanel;
+    public Transform legPanel;
+    public Transform bootPanel;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        RefreshUI(); // Updates UI on game start 
-    }
+    private Transform panel;
+
 
     // Update is called once per frame
     void Update()
@@ -28,11 +29,24 @@ public class InventoryMenu : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+        foreach (Transform child in helmetPanel)
+        {
+            Destroy(child.gameObject);
+        }
 
         // Create a new slot for each item in the inventory
         foreach (var slot in inventory.inventoryItems)
         {
-            GameObject newSlot = Instantiate(inventorySlot, InventoryPanel);
+            if (slot.item.type == ItemType.Consumable)
+            {
+                panel = InventoryPanel;
+            }
+            else if (slot.item.type == ItemType.Helmet)
+            {
+                panel = helmetPanel;
+            }
+
+            GameObject newSlot = Instantiate(inventorySlot, panel);
 
             // Set the icon
             Image iconImage = newSlot.transform.Find("Icon").GetComponent<Image>();

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 665
+  controlID: 16535
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 666
+  controlID: 16536
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 667
+  controlID: 16537
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -249,18 +249,24 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 89.399994}
       m_SelectedIDs:
-      - m_Data: 66748
+      - m_Data: 58698
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 58698
       m_ExpandedIDs:
+      - m_Data: -92578
       - m_Data: -18692
       - m_Data: -14606
       - m_Data: -11740
       - m_Data: -1318
       - m_Data: 55114
+      - m_Data: 58638
+      - m_Data: 58672
       - m_Data: 58698
+      - m_Data: 58844
+      - m_Data: 59062
+      - m_Data: 59136
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -880,9 +886,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 12.264595, y: -110.57664, z: -57.078777}
+    m_Target: {x: 123.016525, y: 15.581652, z: -5.7758994}
     speed: 2
-    m_Value: {x: 12.264595, y: -110.57664, z: -57.078777}
+    m_Value: {x: 123.016525, y: 15.581652, z: -5.7758994}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -928,13 +934,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1838963, y: 0.8089123, z: -0.32612377, w: -0.4551567}
+    m_Target: {x: -0.2268905, y: 0.44979337, z: -0.11846871, w: -0.8566756}
     speed: 2
-    m_Value: {x: -0.1837419, y: 0.80823314, z: -0.32584995, w: -0.45477456}
+    m_Value: {x: -0.22689049, y: 0.44979337, z: -0.1184687, w: -0.8566756}
   m_Size:
-    m_Target: 103.077644
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 103.077644
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1045,7 +1051,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Code
+    - Assets/Code/Inventory Code/Items
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1055,7 +1061,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Code
+  - Assets/Code/Inventory Code/Items
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\harry\Documents\github\RPGFighterGame\UnityFighterGame\ArenaFighter
   m_LockTracker:
@@ -1064,9 +1070,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 54}
     m_SelectedIDs:
-    - m_Data: 54670
+    - m_Data: 54808
     m_LastClickedID:
-      m_Data: 54670
+      m_Data: 54808
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 54668
@@ -1138,9 +1144,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 66748
-    m_LastClickedInstanceID: 66748
-    m_HadKeyboardFocusLastEvent: 1
+    - m_Data: 58698
+    m_LastClickedInstanceID: 58698
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1269,8 +1275,8 @@ MonoBehaviour:
     y: 0
     width: 334.40002
     height: 812.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}

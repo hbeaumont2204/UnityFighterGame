@@ -6,9 +6,12 @@ public class ItemPickup : MonoBehaviour
     public Item item; // The item the object represents
     public int quantity = 1; 
 
+    Inventory inventory;
+
     private void OnTriggerEnter(Collider other)
     {
-        Inventory inventory = other.GetComponent<Inventory>();
+        inventory = other.GetComponent<Inventory>();
+
 
         if (inventory != null)
         {
