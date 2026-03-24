@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de346e8a0c7aa3e4c8ecc7a36c6e2996, type: 3}
   m_Name: Health Crystal
   m_EditorClassIdentifier: Assembly-CSharp::Consumable
-  itemName: 
-  icon: {fileID: 0}
+  itemName: Health Crystal
+  icon: {fileID: 21300000, guid: c99d039a52a41a643b5e9692f31d12c4, type: 3}
   type: 0
   healAmount: 50

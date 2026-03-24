@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02764d2084c8be24da507e234d4f360c, type: 3}
   m_Name: Chestplate
   m_EditorClassIdentifier: Assembly-CSharp::Armour
-  itemName: 
-  icon: {fileID: 0}
-  type: 2
+  itemName: Chestplate
+  icon: {fileID: 21300000, guid: f7d2cb75cd401ca4b8612f144fa3531b, type: 3}
+  type: 3
   armourType: 1
   armourPoints: 20

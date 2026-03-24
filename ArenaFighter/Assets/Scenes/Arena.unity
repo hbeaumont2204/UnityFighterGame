@@ -2498,6 +2498,7 @@ MonoBehaviour:
   itemToAdd: {fileID: 11400000, guid: 9c368762a89039142916d4d5f5ac6531, type: 2}
   itemToAdd2: {fileID: 11400000, guid: 9d3fd73a455c94c489d31cf30c8070d8, type: 2}
   itemToAdd3: {fileID: 11400000, guid: 72c69752a02a40144b33502446aa2932, type: 2}
+  itemToAdd4: {fileID: 11400000, guid: 569773c59efbf8d499a66c04acafb3b7, type: 2}
 --- !u!114 &249640457
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -33,6 +33,9 @@ public class InventoryMenu : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+        foreach (Transform child in chestPanel) {
+            Destroy(child.gameObject);
+        }
 
         // Create a new slot for each item in the inventory
         foreach (var slot in inventory.inventoryItems)
@@ -45,6 +48,10 @@ public class InventoryMenu : MonoBehaviour
             {
                 panel = helmetPanel;
             }
+            else if (slot.item.type == ItemType.Chestplate) {
+                panel = chestPanel;
+            }
+            
 
             GameObject newSlot = Instantiate(inventorySlot, panel);
 

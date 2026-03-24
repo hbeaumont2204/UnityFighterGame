@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02764d2084c8be24da507e234d4f360c, type: 3}
   m_Name: Helmet
   m_EditorClassIdentifier: Assembly-CSharp::Armour
-  itemName: 
-  icon: {fileID: 0}
+  itemName: Helmet
+  icon: {fileID: 21300000, guid: ab7fa6e6a5d382447a6959560dbb00b0, type: 3}
   type: 2
   armourType: 0
   armourPoints: 10

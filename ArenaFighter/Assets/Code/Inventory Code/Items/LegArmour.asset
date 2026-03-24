@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Armour
   itemName: 
   icon: {fileID: 0}
-  type: 2
+  type: 5
   armourType: 2
   armourPoints: 15
