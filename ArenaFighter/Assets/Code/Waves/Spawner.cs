@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Threading.Tasks;
 
 
 public class Spawner : MonoBehaviour
@@ -49,6 +50,7 @@ public class Spawner : MonoBehaviour
         }
         
         active = waveManager.getActive();
+
     }
 
 
@@ -57,4 +59,5 @@ public class Spawner : MonoBehaviour
         Instantiate(enemy, transform.position, transform.rotation);
         total++;
     }
+    
 }
