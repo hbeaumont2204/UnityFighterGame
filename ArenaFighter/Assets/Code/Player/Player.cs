@@ -49,7 +49,11 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
+        //if (Input.getKeyDown(esc)) // FINISH LATER
+    }
+
+    void togglePause() {
+        // DO LATER
     }
 
     //

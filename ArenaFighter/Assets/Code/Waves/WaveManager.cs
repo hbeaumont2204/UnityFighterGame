@@ -20,7 +20,6 @@ public class WaveManager : MonoBehaviour
     {
         if (getEnemyCount() == 0) // Starts a new wave of enemies
         {
-            delay();
             waveActive = true;
         }
         else // Doesn't spawn new enemies until there are none left
@@ -29,15 +28,12 @@ public class WaveManager : MonoBehaviour
         }
     }
 
-    async void delay()
-    {
-        await Task.Delay(5000);
-    }
+
     public int getEnemyCount()
     {
         GameObject[] enemies= GameObject.FindGameObjectsWithTag("Enemy");
         int count = enemies.Length;
-        Debug.Log("Enemy Count: " + count);
+        //Debug.Log("Enemy Count: " + count);
         return count;
     }
 
