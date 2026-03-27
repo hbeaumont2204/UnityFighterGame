@@ -6,12 +6,15 @@ public class WaveManager : MonoBehaviour
 {
     int waveNumber = 1;
     bool waveActive = false;
+    GameObject[] enemies;
+    GameObject[] spawners;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //waveActive = true;
+        spawners = GameObject.FindGameObjectsWithTag("Spawner");
     }
     
 
@@ -26,16 +29,18 @@ public class WaveManager : MonoBehaviour
         {
             waveActive = false; 
         }
+
     }
 
 
     public int getEnemyCount()
     {
-        GameObject[] enemies= GameObject.FindGameObjectsWithTag("Enemy");
+        enemies = GameObject.FindGameObjectsWithTag("Enemy");
         int count = enemies.Length;
         //Debug.Log("Enemy Count: " + count);
         return count;
     }
+
 
 
     public bool getActive()

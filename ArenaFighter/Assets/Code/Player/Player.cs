@@ -3,11 +3,14 @@ using System.Xml.XPath;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
 
     public GameObject deathMenu;
+    public GameObject pauseMenu;
+
     /* 
     Currency divided into silver and gold 
     Gold converted into silver when buying and selling. 
@@ -41,6 +44,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         deathMenu.SetActive(false);
+        pauseMenu.SetActive(false);
         updateCurrency();
         Debug.Log(health/maxHealth);
         healthBar.value = health/maxHealth;
@@ -49,11 +53,25 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        //if (Input.getKeyDown(esc)) // FINISH LATER
+        if (Input.GetKeyDown(KeyCode.P)) { // Check for pause/unpause
+            if (Cursor.visible) {
+                Cursor.visible = false;
+            }
+            else {
+                Cursor.visible = true;
+            }
+            togglePause();
+        }
     }
 
     void togglePause() {
-        // DO LATER
+        if (Time.timeScale == 1f) {
+            Time.timeScale = 0f;
+        }
+        else {
+            Time.timeScale = 1f;
+        }
+        pauseMenu.SetActive(!(pauseMenu.activeSelf));
     }
 
     //
@@ -117,7 +135,7 @@ public class Player : MonoBehaviour
 
     public void death()
     {
-        // PAUSE NEEDED
+        Time.timeScale = 0; // Pause on death
         String xpLabel = "XP gained: " + xp;
         deathMenu.SetActive(true);
         DeathScreen deathScreen = deathMenu.GetComponent<DeathScreen>();

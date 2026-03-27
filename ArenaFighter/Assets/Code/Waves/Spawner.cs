@@ -13,6 +13,7 @@ public class Spawner : MonoBehaviour
     public bool bossSpawner = false;
     public bool active = true;
 
+
     int count;
     int total = 0;
     void Start()
@@ -28,6 +29,7 @@ public class Spawner : MonoBehaviour
             count = waveManager.getEnemyCount();
             if (count < 6 & active)
             {
+                active = false;
                 if (total % 5 == 0) // Chance of stronger enemy spawning
                 {
                     int n1 = Random.Range(1,10);
@@ -45,7 +47,7 @@ public class Spawner : MonoBehaviour
                 {
                     spawn(enemy);
                 }
-                active = false;
+                
             }
         }
         
@@ -53,9 +55,10 @@ public class Spawner : MonoBehaviour
 
     }
 
-
+    // ADD WORKING DELAY LATER
     void spawn(GameObject enemy)
     {
+        //await Task.Delay(5000);
         Instantiate(enemy, transform.position, transform.rotation);
         total++;
     }

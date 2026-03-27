@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
     private void Gravity()
     {
         isGrounded = Physics.CheckSphere(ground.position, distanceToGround, groundMask);
-        Debug.Log(isGrounded);
+        //Debug.Log(isGrounded);
 
         if (isGrounded && velocity.y < 0)
         {
